@@ -30,7 +30,7 @@ app.use("/", tarefaRoutes);
 
 //SINCRONIZAÇÃO COM O BANCO - INICIAR DO SERVIDOR
 sequelize.sync()
-  .than(() => {
+  .then(() => {
     console.log("Banco de dados sincronizado com sucesso");
     app.listen(3000, () => {
       console.log("Servidor rodando em http://localhost:3000")

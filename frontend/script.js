@@ -104,8 +104,8 @@ function atualizarTabela(tarefas) {
       <td>${tarefa.responsavel}</td>
       <td>${tarefa.status}</td>
       <td>
-        <button onclick="alterarStatus(${tarefa.id})">Alterar Status</button>
-        <button onclick="removerTarefa(${tarefa.id})">Remover</button>
+        <button class="btn-alterar" onclick="alterarStatus(${tarefa.id})">Alterar Status</button>
+        <button class="btn-remover" onclick="removerTarefa(${tarefa.id})">Remover</button>
       </td>
     `;
     tbody.appendChild(row);
