@@ -1,81 +1,93 @@
-body {
-  background-image: url('imagemFundo.jpeg');
-    font-family: Arial, sans-serif;
-    background-color: #eef2f7;
-  }
-  
-  .container {
-    max-width: 600px;
-    margin: 40px auto;
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  }
-  
-  h1, h3 {
-    text-align: center;
-  }
-  
-  form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-bottom: 20px;
-  }
-  
-  input, button {
-    padding: 10px;
-    font-size: 16px;
-  }
-  
-  button {
-    /* background-color: #ae09fa; */
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 4px;
-  }
-  /* -----------------------------------*/
-  .botãoAdicionarTarefa{
-    background-color: rgb(212, 16, 163);
-  }
-  .botãoAdicionarTarefa:hover {
-    background-color: rgb(238, 99, 192); 
-    color: black;
-  }
+
+  body {
+    background-image: url('imagemFundo2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  font-family: Arial, sans-serif;
+  background-color: #eef2f7;
+}
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h3 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input,
+button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  /* background-color: #ae09fa; */
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* -----------------------------------*/
+.botãoAdicionarTarefa {
+  background-color: rgb(212, 16, 163);
+}
+
+.botãoAdicionarTarefa:hover {
+  background-color: rgb(238, 99, 192);
+  color: black;
+}
+
 /* ---------------------------------- */
-.btn-alterar{
+.btn-alterar {
   background-color: rgb(5, 54, 158);
 }
 
-  .btn-alterar:hover{
-    background-color: rgb(47, 108, 221);
-    color: black;
-  }
-  /* ---------------------------------- */
-.btn-remover{
-  background-color:  rgb(219, 27, 27);
+.btn-alterar:hover {
+  background-color: rgb(47, 108, 221);
+  color: black;
 }
-  .btn-remover:hover{
-    background-color: #fa091d;
-    color: black;
-  }
-  /* ---------------------------------- */
 
-  table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  
-  th, td {
-    border: 1px solid #ccc;
-    padding: 8px;
-    text-align: center;
-  }
-  
-  th {
-    background-color: #ae09fa;
-    color: white;
-  }
-  
+/* ---------------------------------- */
+.btn-remover {
+  background-color: rgb(219, 27, 27);
+}
+
+.btn-remover:hover {
+  background-color: #fa091d;
+  color: black;
+}
+
+/* ---------------------------------- */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #ae09fa;
+  color: white;
+}
